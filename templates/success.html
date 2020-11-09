@@ -1,0 +1,60 @@
+<html>  
+<head>  
+<title>MEDI-LEAF-RECO-APP</title>  
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet"href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+<link rel="shortcut icon" href="static/css/logo.ico" type="image/x-icon"/>
+<link rel="stylesheet" type="text/css" href="static/css/success.css?version=136">	
+</head>  
+<body>
+    <div class = "container-fluid" >
+    <form name = "f11" id = "f11"><BR>
+    <center>
+<h1><b>{{result}}</b></h1></center><br>
+<h2>{{leaf1.charac}}</h2><br>
+<table border="0" class = "center" style="width: 1400px">
+    <tr>
+        <th><b>SCIENTIFIC NAME</b></th>
+        <td>{{leaf1.scien_name}}</td>
+    </tr>
+    <tr>
+        <th>OTHER NAMES</th>
+        <td>{{leaf1.other_name}}</td>
+    </tr>
+    <tr>
+        <th>LOCATION</th>
+        <td>{{leaf1.place}}</td>
+    </tr>
+    <tr>
+        <th>SEASON</th>
+        <td>{{leaf1.season}}</td>
+    </tr>
+    <tr>
+        <th>SOIL CONDITION</th>
+        <td><pre>{{leaf1.soil_condi}}</pre></td>
+    </tr>
+    <tr>
+        <th>MEDICINAL USES</th>
+        <td><pre>{{leaf1.med_use}}</pre></td>
+    </tr>
+    <tr>
+        <th>NOURISHMENT</th>
+        <td><pre>{{leaf1.nut_cont}}</pre></td>
+    </tr>
+    <tr>
+        <th>OTHER USES</th>
+        <td><pre>{{leaf1.other_use}}</pre></td>
+    </tr>
+    <tr>
+        <th>SIDE EFFECTS</th>
+        <td><pre>{{leaf1.side_effects}}</pre></td>
+    </tr>
+</table>
+</form>
+</div>
+</body>  
+</html>
+
